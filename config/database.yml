@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  database: iss_game_development
+
+
+test:
+  adapter: postgresql
+  database: iss_game_test
+

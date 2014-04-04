@@ -1,0 +1,11 @@
+.margin-high {
+  margin-top: 10px;
+}
+
+.margin-really-high {
+  margin-top: 50px;
+}
+
+input, select, textarea {
+  width: 50% !important;
+}

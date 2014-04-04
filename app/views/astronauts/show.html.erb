@@ -1,0 +1,13 @@
+<h2>Astronaut:</h2>
+
+<p>Name: <%= @astronaut.name %></p>
+<p>Nationality: <%= @astronaut.nationality %></p>
+<p>Mission role: <%= @astronaut.role.name %></p>
+
+
+<a href='/astronauts/<%= @astronaut.id %>/edit'><button class="btn btn-warning" >Edit Astronaut</button></a>
+<a href="/astronauts/<%= @astronaut.id %>'>"
+  data-confirm="You sure?"
+   data-method="delete"
+   rel="nofollow"><button class="btn btn-danger">Delete Astronaut</button></a>
+<a href='/astronauts'><button class="btn btn-primary" >Astronaut index</button></a>

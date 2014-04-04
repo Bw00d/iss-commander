@@ -1,0 +1,23 @@
+<h1>Astronauts</h1>
+
+<ul>
+  <% @astronauts.each do |astronaut| %>
+  <li><a href="/astronauts/<%= astronaut.id %>"><%= astronaut.name %></a></li>
+  <% end %>
+
+</ul>
+
+<a href="/astronauts/new"><button class="btn btn-success">Create new Astronaut</button></a>
+
+
+<div class="margin-really-high">
+<h1>Missions</h1>
+
+<ul>
+  <% @missions.each do |mission| %>
+  <li><a href="/mission/<%= mission.id %>"><%= mission.name %></a></li>
+  <% end %>
+
+</ul>
+<a href="/missions/new"><button class="btn btn-primary">Create new Mission</button></a>
+</div>

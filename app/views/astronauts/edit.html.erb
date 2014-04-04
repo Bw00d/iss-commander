@@ -1,0 +1,7 @@
+<h1>Edit your Astronaut</h1>
+
+<form action="/astronauts/<%= @astronaut.id %>" method="post">
+  <input name="_method" type="hidden" value="patch">
+  <%= render('form') %>
+  <button class="btn btn-warning margin-high">Edit Astronaut</button>
+</form>

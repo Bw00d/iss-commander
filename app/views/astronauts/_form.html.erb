@@ -1,0 +1,10 @@
+<label for="astronaut_name">Name</label>
+<input id="astronaut_name" class="form-control" name="astronaut[name]" type="text" value="<%= @astronaut.name %>">
+<label for="astronaut_nationality">Nationality</label>
+<input id="astronaut_nationality" class="form-control" name="astronaut[nationality]" type="text" value="<%= @astronaut.nationality %>">
+<label for="astronaut_role">Mission Role</label>
+<select name="astronaut[role_id]" class="form-control">
+  <% @roles.each do |role| %>
+  <option value="<%= role.id %>"><%= role.name %></option>
+  <% end %>
+</select>
