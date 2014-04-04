@@ -12,6 +12,23 @@ IssGame::Application.routes.draw do
   match('missions', { via: :post, to: 'missions#create'})
   match('missions/new',     { via: :get, to: 'missions#new' })
   match('missions/:id', { via: :get, to: 'missions#show' })
+  match('missions/:id', { via: [:patch, :put], to: 'missions#update' })
+  match('missions/:id/edit', { via: :get, to: 'missions#edit'})
+  match('missions/:id', { via: :delete, to: 'missions#destroy'})
+
+  match('crews', { via: :get, to: 'crews#index'})
+  match('crews/new', { via: :get, to: 'crews#new' })
+  match('crews', { via: :post, to: 'crews#create'})
+
+  match('challenges',     { via: :get, to: 'challenges#index' })
+  match('challenges',     { via: :post, to: 'challenges#create' })
+  match('challenges/new',     { via: :get, to: 'challenges#new' })
+  match('challenges/:id', { via: :get, to: 'challenges#show' })
+  match('challenges/:id', { via: [:patch, :put], to: 'challenges#update' })
+  match('challenges/:id/edit', { via: :get, to: 'challenges#edit'})
+  match('challenges/:id', { via: :delete, to: 'challenges#destroy'})
+
+  match('games', { via: :get, to: 'games#index' })
 
 
 end

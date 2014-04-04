@@ -1,0 +1,13 @@
+<h2>Mission:</h2>
+
+<p>Name: <%= @mission.name %></p>
+<p>Mission Message: <%= @mission.message %></p>
+<p>Mission number: <%= @mission.number %></p>
+
+
+<a href='/missions/<%= @mission.id %>/edit'><button class="btn btn-warning">Edit Mission</button></a>
+<a href="/missions/<%= @mission.id %>'>"
+  data-confirm="You sure?"
+   data-method="delete"
+   rel="nofollow"><button class="btn btn-danger">Delete Mission</button></a>
+<a href='/astronauts'><button class="btn btn-primary">Astronaut index</button></a>

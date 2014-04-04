@@ -3,6 +3,7 @@ class AstronautsController < ApplicationController
   def index
     @missions = Mission.all
     @astronauts = Astronaut.all
+    @challenges = Challenge.all
     render('astronauts/index.html.erb')
   end
 

@@ -6,6 +6,6 @@
   margin-top: 50px;
 }
 
-input, select, textarea {
+.half {
   width: 50% !important;
 }
