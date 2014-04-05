@@ -1,0 +1,7 @@
+<h1>Edit your Challenge</h1>
+
+<form action="/challenges/<%= @challenge.id %>" method="post">
+  <input name="_method" type="hidden" value="patch">
+  <%= render('form') %>
+  <button class="btn btn-warning margin-high">Edit Challenge</button>
+</form>

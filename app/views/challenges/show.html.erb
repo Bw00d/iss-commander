@@ -1,0 +1,19 @@
+<h2>Challenge:</h2>
+
+<p>Name: <%= @challenge.name %></p>
+<p>Challenge Message: <%= @challenge.message %></p>
+<p>Challange Answer Keywords: <%= @challenge.answer %></p>
+<p>Challenge number: <%= @challenge.number %></p>
+<% if @challenge.mission != nil %>
+  <p>Mission Name: <%= @challenge.mission.name %></p>
+<% end %>
+<p>Mission ID: <%= @challenge.mission_id %></p>
+
+
+
+<a href='/challenges/<%= @challenge.id %>/edit'><button class="btn btn-warning">Edit Challenge</button></a>
+<a href="/challenges/<%= @challenge.id %>'>"
+  data-confirm="You sure?"
+   data-method="delete"
+   rel="nofollow"><button class="btn btn-danger">Delete Challenge</button></a>
+<a href='/astronauts'><button class="btn btn-primary">Astronaut index</button></a>

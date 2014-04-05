@@ -1,12 +1,10 @@
 <div class="half pull-left">
 <h1>Select your crew</h1>
-<form action="/crews" method="post">
+<form action="/responses" method="post">
 <% @astronauts.each do |astronaut| %>
     <input id="crew_astronaut" name="astronauts_id[]" type="checkbox" value="<%= astronaut.id %>"><%= astronaut.name %><br><%= astronaut.nationality %><br><%= astronaut.role.name %><br>
   <% end %>
 
-</div>
-<div class="half pull-right">
 <h1>Select your mission</h1>
 <% @missions.each do |mission| %>
     <input id="crew_mission" name="mission_id" type="radio" value="<%= mission.id %>"><%= mission.name %><br>

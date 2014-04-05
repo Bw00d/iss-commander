@@ -28,7 +28,7 @@ IssGame::Application.routes.draw do
   match('challenges/:id/edit', { via: :get, to: 'challenges#edit'})
   match('challenges/:id', { via: :delete, to: 'challenges#destroy'})
 
-  match('games', { via: :get, to: 'games#index' })
+  match('responses', { via: :post, to: 'responses#index' })
 
 
 end
