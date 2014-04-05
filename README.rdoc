@@ -1,12 +1,12 @@
 * DONE As a game developer I want to be able to create characters that the player can select for their crew
 
-*DONE As a game developer I want to be able to create roles for the characters to have
+* DONE As a game developer I want to be able to create roles for the characters to have
 
-As a game developer I want to be able to create mission for the player to play
+* DONE As a game developer I want to be able to create mission for the player to play
 
-As a game developer I want to be able to create challenges for the player to overcome
+* DONE As a game developer I want to be able to create challenges for the player to overcome
 
-As a player I want to decide what type of crew I have
+* DONE As a player I want to decide what type of crew I have
 
 As a player I want to be able to facilitate communication between crew members to ensure the success of the mission
 
