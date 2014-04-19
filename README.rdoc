@@ -8,7 +8,7 @@ and must communicate with the rest of the crew to complete missions.  The langua
 crew adds to complexity in a crisis situation.
 
 ====Status
-We spent a great deal of time building many unnecessary models and didn't actually reach to the point where the user
+We spent a great deal of time building many unnecessary models and didn't actually reach the point where the user
 could play. It was a good lesson in how important planning is and the value of short interations.
 
 * DONE As a game developer I want to be able to create characters that the player can select for their crew
