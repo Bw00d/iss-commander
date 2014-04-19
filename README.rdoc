@@ -1,7 +1,7 @@
 ISS Commander
 ============
 
-###Epicodus bootcamp build anything you want in a day exercise
+###Epicodus bootcamp build anything you want in a day exercise###
 
 This was a poorly conceived idea for a game in which the user is the commander of the International Space Station 
 and must communicate with the rest of the crew to complete missions.  The language diversity of the international
